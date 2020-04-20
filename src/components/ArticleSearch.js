@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import SearchForm from "./SearchForm";
 // import API from "../utils/API";
 
 const mapStateToProps = state => {
@@ -11,7 +12,7 @@ function ArticleSearch({ searchArticles }) {
 
     return (
         <>
-            <h1>Search bar here...</h1>
+            <SearchForm />
             <h1>Search results here...</h1>
         </>
     )
