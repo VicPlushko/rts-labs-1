@@ -7,7 +7,7 @@ const initialState = {
 function rootReducer(state = initialState, action) {
     if (action.type === GET_SEARCH) {
         return Object.assign({}, state, {
-            searchTerms: state.searchTerms.concat(action.payload)
+            searchTerms: action.payload
         });
     }
     return state;
