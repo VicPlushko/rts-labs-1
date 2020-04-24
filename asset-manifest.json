@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rts-labs/static/css/main.18f20ffd.chunk.css",
-    "main.js": "/rts-labs/static/js/main.898e7bba.chunk.js",
-    "main.js.map": "/rts-labs/static/js/main.898e7bba.chunk.js.map",
+    "main.js": "/rts-labs/static/js/main.bfb58a60.chunk.js",
+    "main.js.map": "/rts-labs/static/js/main.bfb58a60.chunk.js.map",
     "runtime-main.js": "/rts-labs/static/js/runtime-main.240937d0.js",
     "runtime-main.js.map": "/rts-labs/static/js/runtime-main.240937d0.js.map",
     "static/js/2.2135299a.chunk.js": "/rts-labs/static/js/2.2135299a.chunk.js",
     "static/js/2.2135299a.chunk.js.map": "/rts-labs/static/js/2.2135299a.chunk.js.map",
     "index.html": "/rts-labs/index.html",
-    "precache-manifest.d57a439bbf5d56341ec592140d039c2c.js": "/rts-labs/precache-manifest.d57a439bbf5d56341ec592140d039c2c.js",
+    "precache-manifest.d72fb93d06e6d488152469581c39257a.js": "/rts-labs/precache-manifest.d72fb93d06e6d488152469581c39257a.js",
     "service-worker.js": "/rts-labs/service-worker.js",
     "static/css/main.18f20ffd.chunk.css.map": "/rts-labs/static/css/main.18f20ffd.chunk.css.map",
     "static/js/2.2135299a.chunk.js.LICENSE.txt": "/rts-labs/static/js/2.2135299a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.240937d0.js",
     "static/js/2.2135299a.chunk.js",
     "static/css/main.18f20ffd.chunk.css",
-    "static/js/main.898e7bba.chunk.js"
+    "static/js/main.bfb58a60.chunk.js"
   ]
 }
