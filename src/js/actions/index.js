@@ -1,5 +1,5 @@
-import { ADD_SEARCH } from "../constants/action-types";
+import { GET_SEARCH } from "../constants/action-types";
 
 export function addSearch(payload) {
-    return { type: ADD_SEARCH, payload }
+    return { type: GET_SEARCH, payload }
 };

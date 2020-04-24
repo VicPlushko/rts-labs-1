@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addSearch } from "../js/actions/index";
+// import API from "../utils/API";
 
 function mapDispatchToProps(dispatch) {
     return {
@@ -8,24 +9,30 @@ function mapDispatchToProps(dispatch) {
     };
 }
 
+
+
 class ConnectedSearchForm extends Component {
     state = {
-        title: ""
+        searchTerms: ""
     };
 
     handleSubmit = (event) => {
         event.preventDefault();
         console.log("The submit functionality works..");
-        this.props.addSearch(this.state.title);
+        this.props.addSearch(this.state.searchTerms);
+
+        // console.log("PROPS BEING PASSED FROM REDUX STATE---", this.props.searchTerm);
+
         this.setState({
-            title: ""
+            searchTerms: ""
         });
+
     }
 
     handleChange = (event) => {
         console.log(event.target.value);
         this.setState({
-            title: event.target.value
+            searchTerms: event.target.value
         });
     }
 

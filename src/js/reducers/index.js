@@ -1,14 +1,14 @@
-import { ADD_SEARCH } from "../constants/action-types";
+import { GET_SEARCH } from "../constants/action-types";
 
 const initialState = {
-    userSearch: ""
+    searchTerms: ""
 };
 
 function rootReducer(state = initialState, action) {
-    if (action.type === ADD_SEARCH) {
+    if (action.type === GET_SEARCH) {
         // state.userSearch.push(action.payload);
         return Object.assign({}, state, {
-            userSearch: state.userSearch.concat(action.payload)
+            searchTerms: state.searchTerms.concat(action.payload)
         });
     }
     return state;
