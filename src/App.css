@@ -1,4 +1,30 @@
+.navbar {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
 .form-inline {
     margin-top: 40px;
-    flex-flow: none !important;
+    box-sizing: border-box;
+}
+
+#formInput {
+    width: 80%;
+}
+
+#formBtn {
+    width: 20%;
+}
+
+.jumbotron {
+    margin-top: 20px;
+}
+
+.cardStyle {
+    margin-top: 20px;
+}
+
+.cardStyle:hover {
+    cursor: pointer;
+    border-color: #4aaaa5;
+    transition: .5s;
 }

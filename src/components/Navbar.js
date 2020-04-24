@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 class Navbar extends Component {
-    state = {
-        stateContent: "Something Meaningful"
-    };
-
 
     render() {
         return (
